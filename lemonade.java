@@ -8,6 +8,9 @@ public class HelloWorld{
         
         double cost = 1.00;
         double total = count * cost;
+           if (total < 0) {
+            System.out.println("no");
+        } else {
         System.out.printf("Your total will be $%.2f\n",total);
      }    
 }
