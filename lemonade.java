@@ -14,3 +14,4 @@ public class HelloWorld{
         System.out.printf("Your total will be $%.2f\n",total);
      }    
 }
+}
